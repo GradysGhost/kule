@@ -185,7 +185,7 @@ def main():
     parser.add_option("--mongodb-host", dest="mongodb_host",
                       help="MongoDB host")
     parser.add_option("--mongodb-port", dest="mongodb_port",
-                      help="MongoDB port")
+                      type="int", help="MongoDB port")
     parser.add_option("-d", "--database", dest="database",
                       help="MongoDB database name")
     parser.add_option("-c", "--collections", dest="collections",
